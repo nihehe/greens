@@ -51,7 +51,7 @@ header main .mar{
     height: 29px;
     margin-left:0;
 }
-.right ul li:nth-child(3) a{
+.right ul li:nth-child(4) a{
     color: #4bb344;
 }
 .right ul li a{
@@ -70,12 +70,12 @@ span .line{
 }
 .big{
     width: 1340px;
-    height: 1590px;
+    height: 825px;
     position: relative;
 }
 .big .container{
     /*width: 100%;*/
-    height: 1590px;
+    height: 825px;
     padding: 0 40px;
 }
 .big .container .left{
@@ -95,122 +95,130 @@ span .line{
     border: 1px solid #e0e0e0;
     font-family: "微软雅黑";
     font-size: 13px;
-    color: #999;
     line-height: 41px;
-}
-.big .container .left ul li:first-child{
     background: #999;
     color: #fff;
-}
-.big .container .left ul li:last-child,.big .container .left ul li:nth-child(2){
-    border-top: none;
-}
-.big .container .left ul li a {
-    display: block;
-    width: 228px;
-    height: 41px;
-    font-family: "微软雅黑";
-    font-size: 13px;
-    color: #999;
-}
-.big .container .left ul li a:hover{
-    color: #4bb344;
 }
 .xing{
     float: right;
     margin-right: 12px;
 }
 .big .container .right1{
-    width: 830px;
-    height: 1430px;
-    float: right;
-    margin-left: 50px;
-    margin-top: 58px;
-    margin-right: 70px;
-}
-.big .container .right1 ul{
-    width: 830px;
-    height: 1430px;
-    /*position: absolute;*/
-    /*top: 58px;*/
-    /*right: 119px;*/
-}
-.big .container .right1 ul li{
     width: 828px;
-    float: left;
-    /*height: 133px;*/
-    margin-bottom: 10px;
+    height: 733px;
+    float: right;
+    margin: 58px 70px 0px 50px;
+    border: 1px solid #e0e0e0;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.big .container .right1 .area{
+    width: 768px;
+    height: 50px;
     padding-bottom: 10px;
-    margin-left: 5px;
+    border-bottom: 1px dashed #adadad;
+    margin-bottom: 20px;
 }
-.big .container .right1 ul li .picture{
-    overflow: hidden;
-    width: 160px;
+.big .container .right1 .area .dazi{
+    width: 768px;
+    height: 25px;
+    color: #000;
+    font-size:18px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+    font-weight: 700;
+}
+.big .container .right1 .area .date{
+    width: 768px;
+    height: 25px;
+    color: #A9A9A9;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 25px;
+}
+.big .container .right1 .arrive{
+    width: 768px;
+    height: 48px;
+}
+.big .container .right1 .arrive .arr-left{
+    width: 384px;
+    height: 48px;
     float: left;
-    padding-right: 30px;
-    vertical-align: top;
-
 }
-.big .container .right1 ul li .picture a{
-    width: 160px;
-    height: 100px;
+.big .container .right1 .arrive .arr-right{
+    width: 384px;
+    height: 48px;
+    float: right;
 }
-.big .container .right1 ul li .picture a img{
-    width: 160px;
-    height: 100px;
+.big .container .right1 .arrive .arr-left .co-top{
+    width: 384px;
+    height: 24px;
+    font-size:15px;
+    font-family: "微软雅黑";
+    line-height: 24px;
 }
-.big .container .right1 ul li .rr{
-    width: 623px;
-    height: 123px;
+.big .container .right1 .arrive .arr-left .co-top strong{
+   font-weight: 700;
+}
+.big .container .right1 .arrive .arr-left .co-bottom{
+    width: 384px;
+    height: 24px;
+    font-size:15px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+}
+.big .container .right1 .arrive .arr-left .co-bottom strong{
+    font-weight: 700;
+}
+.des{
+    width: 768px;
+    height: 25px;
+    font-size:15px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    float: left;
+    margin-top: 24px;
+}
+.co-des{
+    width: 768px;
+    color:#808080;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 25px;
     float: left;
 }
-.big .container .right1 ul li .biaoti {
-    font-weight: normal;
-    color: #000000;
-    line-height: 16px;
-    vertical-align: top;
-    text-align: left;
-    width: 623px;
-    height: 17px;
-    margin-bottom: 10px;
+.apply{
+    width:768px;
+    height: 43px;
+    padding-top: 33px;
+    border-top: 1px dashed #adadad;
+    float: left;
+    margin-top: 30px;
 }
-
-.big .container .right1 ul li .biaoti a{
-    color: #000000;
+button{
     font-size: 16px;
-    font-family: "微软雅黑";
-    line-height: 16px;
+    padding: 10px 30px;
+    border: 1px solid rgb(75, 179, 68);
+    background: rgb(75, 179, 68);
+    color: rgb(255, 255, 255);
+    outline: none;
 }
-.big .container .right1 ul li .biaoti a:hover{
-    color: #4bb344;
-}
-.big .container .right1 ul li .date{
-    padding-top: 5px;
-    padding-bottom: 8px;
-    color: #afafaf;
-    font-size: 12px;
-    line-height: 12px;
-    margin-bottom: 5px;
-}
-.big .container .right1 ul li p{
-    color: #8c8c8c;
-    font-size: 12px;
-    font-family: "微软雅黑";
-    line-height: 22px;
-    width: 623px;
+button:hover{
+    background: white;
+    color: rgb(75, 179, 68);
 }
 footer{
     width: 1340px;
     height: 238px;
     padding-top: 20px;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 70px;
     background: #f0f0f0;
 }
 footer .top{
     width: 934px;
     height: 188px;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 footer .top ul{
     width: 934px;
