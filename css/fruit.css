@@ -328,11 +328,17 @@ span .line{
     height: 332px;
     margin-left: 26px;
     margin-top: 4px;
+    position: relative;
+    overflow: hidden;
 }
 .fruit img{
     width: 332px;
     height: 332px;
+    position: absolute;
+    left: 332px;
+    top: 0;
 }
+
 .fruit-list{
     width: 336px;
     height: 76px;
@@ -343,10 +349,21 @@ span .line{
     height: 80px;
     margin-right: 4px;
     float: left;
+    position: relative;
 }
 .fruit-list .first img{
     width: 80px;
     height: 80px;
+}
+.bg{
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.5);
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
 }
 footer{
     width: 1340px;
