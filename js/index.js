@@ -1,4 +1,5 @@
 window.onload=function () {
+    //水果轮播图
     let fruit=document.querySelector(".fruit");
     let img=document.querySelectorAll(".fruit img");
     let bg=document.querySelectorAll(".bg");

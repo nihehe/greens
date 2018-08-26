@@ -66,14 +66,14 @@ header main .mar{
 }
 .second{
     width: 1250px;
-    height: 530px;
+    height: 600px;
     margin: 0 auto;
     position: relative;
 }
 .second img{
     display: block;
     width: 1250px;
-    height: 530px;
+    height: 600px;
     z-index: -1;
 }
 .h1 a{
@@ -114,7 +114,7 @@ header main .mar{
     position: absolute;
     content: '';
     width: 25px;
-    height: 1px;
+    height: 2px;
     background-color: #ffffff;
     top:231px;
     right: 0;
@@ -134,7 +134,7 @@ header main .mar{
     text-align: center;
     vertical-align: bottom;
     position: absolute;
-    top:263px;
+    top:233px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -151,7 +151,7 @@ header main .mar{
     vertical-align: bottom;
     text-align: center;
     position: absolute;
-    top:366px;
+    top:356px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -162,7 +162,7 @@ header main .mar{
     height: 273px;
     background: white;
     position: absolute;
-    top: 476px;
+    top: 566px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -218,7 +218,7 @@ header main .mar{
     width:944px;
     height: 135px;
     position: absolute;
-    top: 839px;
+    top: 919px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -307,7 +307,7 @@ header main .mar{
     width: 1220px;
     height: 307px;
     position: absolute;
-    top: 983px;
+    top: 1063px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -402,7 +402,7 @@ header main .mar{
     width:944px;
     height: 135px;
     position: absolute;
-    top: 1375px;
+    top: 1455px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -491,7 +491,7 @@ header main .mar{
     width: 1190px;
     height: 692px;
     position: absolute;
-    top: 1520px;
+    top: 1600px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -563,7 +563,7 @@ footer{
     height: 254px;
     background: #f0f0f0;
     position: absolute;
-    top: 2370px;
+    top: 2450px;
     right: 0;
     left: 0;
     margin-right: auto;

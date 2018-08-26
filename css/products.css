@@ -200,12 +200,12 @@ span .line{
     font-size: 13px;
     background-color: #ffffff;
 }
-.classify ul li:hover{
-    border: 1px solid rgba(170,170,170,1);
-}
-.classify ul li:hover a{
-    color: #191919;
-}
+/*.classify ul li:hover{*/
+    /*border: 1px solid rgba(170,170,170,1);*/
+/*}*/
+/*.classify ul li:hover a{*/
+    /*color: #191919;*/
+/*}*/
 .content1{
     width: 1190px;
     height: 692px;
@@ -216,13 +216,23 @@ span .line{
     margin-right: auto;
     margin-left: auto;
 }
-.content1 ul{
+.content1 .all{
+     width: 1190px;
+     height: 346px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: none;
+ }
+.content1 .all1{
     width: 1190px;
     height: 692px;
 }
-.content1 ul li{
+
+.content1 .all li{
     width: 272px;
     height: 309px;
+    background: white;
     padding: 20px 20px;
     border: 1px solid rgba(221,221,221,1);
     box-sizing: border-box;
@@ -278,11 +288,11 @@ span .line{
     color: #4bb344;
 }
 footer{
-    width: 1340px;
+    width: 100%;
     height: 238px;
     padding-top: 20px;
     box-sizing: border-box;
-    margin-top: 70px;
+    margin-top: 110px;
     background: #f0f0f0;
 }
 footer .top{
